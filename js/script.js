@@ -16,10 +16,10 @@ var swiperPopular = new Swiper (".swiper", {
             slidesPerView: '1',
         },
         700: {
-            slidesPerView: '3',
+            slidesPerView: '2',
         },
         900: {
-            slidesPerView: '3',
+            slidesPerView: '2',
         },
     },
     loop:true,
