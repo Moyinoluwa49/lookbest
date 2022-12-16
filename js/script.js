@@ -38,13 +38,8 @@ var swiperPopular = new Swiper (".swiper", {
     const email = document.getElementById("email").value;
     const address = document.getElementById("address").value;
     const nodisplay = document.querySelector(".nodisplay");
-     const goldwatchtype = document.getElementById("goldwatchtype").value;
     const silverwatchtype = document.getElementById("silverwatchtype").value;
     const bluewatchtype = document.getElementById("bluewatchtype").value;
-    const blackwatchtype = document.getElementById("blackwatchtype").value;
-    if (goldwatchtype.checked == true) {
-        temParams.push(goldwatchtype)
-    }
         if (from_name == null || from_name == "")
         { alert("Please Fill All Required Field");
         return false;}
