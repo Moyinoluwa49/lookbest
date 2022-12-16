@@ -16,10 +16,10 @@ var swiperPopular = new Swiper (".swiper", {
             slidesPerView: '1',
         },
         700: {
-            slidesPerView: '2',
+            slidesPerView: '3',
         },
         900: {
-            slidesPerView: '2',
+            slidesPerView: '3',
         },
     },
     loop:true,
@@ -84,43 +84,6 @@ var tempParams ={
 }
 
 const changeColors = document.querySelectorAll(".diffColor")
-
-for (const changeColor of changeColors) { 
-    let is_color_changer= true
-
-function colorSelector(color){
-    return changeColor.style.backgroundColor=color
-}
-let time=(ms)=>{
-    return new Promise((resolve,reject)=>{
-        if(is_color_changer){
-            setTimeout(resolve,ms)
-        }
-        else{
-            reject(console.log("rejected!!"))
-        }
-    })
-}
-
-async function colorChange () {
-  await time(500)
-  colorSelector("red")
-
-  await time(500)
-  colorSelector("purple")
-
-  await time(500)
-  colorSelector("gold")
-
-  await time(500)
-  colorSelector("orange")
-  
-  await time(500)
-  colorSelector("blue")
-  colorChange()
-}
-colorChange()
-}const changeColors = document.querySelectorAll(".diffColor")
 
 for (const changeColor of changeColors) { 
     let is_color_changer= true
