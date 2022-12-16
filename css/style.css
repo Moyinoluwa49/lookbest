@@ -50,7 +50,6 @@ body{
 }
 nav{
    width: 100%;
-   background-color: rgb(50, 46, 46);
    color: white; 
    padding: 0;
 }
@@ -188,7 +187,6 @@ h2{
    font-weight: 900;
 }
 .order{
-background-color: black;
 color: white;
 padding: 15px;
 margin-top: 50px;
